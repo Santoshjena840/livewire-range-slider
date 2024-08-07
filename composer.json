@@ -1,17 +1,17 @@
 {
-    "name": "jantinnerezo/livewire-range-slider",
+    "name": "santoshjena/livewire-range-slider",
     "description": "A Tall Stack wrapper for noUiSlider Range Slider",
     "keywords": [
-        "jantinnerezo",
+        "santoshjena",
         "livewire-range-slider"
     ],
-    "homepage": "https://github.com/jantinnerezo/livewire-range-slider",
+    "homepage": "https://github.com/santoshjena007/livewire-range-slider",
     "license": "MIT",
     "type": "library",
     "authors": [
         {
-            "name": "Jantinn Erezo",
-            "email": "erezojantin@gmail.com",
+            "name": "Santosh Jena",
+            "email": "santoshk.jena@hyscaler.com",
             "role": "Developer"
         }
     ],
@@ -26,12 +26,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Jantinnerezo\\LivewireRangeSlider\\": "src"
+            "SantoshJena\\LivewireRangeSlider\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Jantinnerezo\\LivewireRangeSlider\\Tests\\": "tests"
+            "SantoshJena\\LivewireRangeSlider\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -44,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Jantinnerezo\\LivewireRangeSlider\\LivewireRangeSliderServiceProvider"
+                "SantoshJena\\LivewireRangeSlider\\LivewireRangeSliderServiceProvider"
             ],
             "aliases": {
-                "LivewireRangeSlider": "Jantinnerezo\\LivewireRangeSlider\\LivewireRangeSliderFacade"
+                "LivewireRangeSlider": "SantoshJena\\LivewireRangeSlider\\LivewireRangeSliderFacade"
             }
         }
     }
